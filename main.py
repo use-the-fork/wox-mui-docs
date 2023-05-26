@@ -8,12 +8,12 @@ import html
 import re
 from algoliasearch.search_client import SearchClient
 
-client = SearchClient.create("E3MIRNPJH5", "1fa3a8fec06eb1858d6ca137211225c0")
-index = client.init_index("laravel")
-docs = "https://laravel.com/docs/"
+client = SearchClient.create("TZGZ85B9TB", "8177dfb3e2be72b241ffb8c5abafa899")
+index = client.init_index("material-ui")
+docs = "https://mui.com/material-ui/"
 
 
-class LaravelDocs(Wox):
+class MUIDocs(Wox):
 
     def getTitle(self, hierarchy):
         if hierarchy["lvl6"] is not None:
@@ -66,7 +66,7 @@ class LaravelDocs(Wox):
         if key.strip():
 
             search = index.search(
-                key, {"facetFilters": "version:10.x", "hitsPerPage": 5}
+                key, {"facetFilters": "product:material-ui", "hitsPerPage": 5}
             )
 
             for hit in search["hits"]:
@@ -123,8 +123,8 @@ class LaravelDocs(Wox):
 
                 items.append(
                     {
-                        "Title": "Open Laravel Docs",
-                        "SubTitle": "No match found. Open laravel.com/docs...",
+                        "Title": "Open MUI Docs",
+                        "SubTitle": "No match found. Open mui.com/material-ui...",
                         "IcoPath": "Images/icon.svg",
                         "JsonRPCAction":
                             {
@@ -144,4 +144,4 @@ class LaravelDocs(Wox):
 
 
 if __name__ == "__main__":
-    LaravelDocs()
+    MUIDocs()

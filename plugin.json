@@ -1,12 +1,12 @@
 {
-  "ID": "65F42C3AEBFB49A0971FE47294102C01",
-  "ActionKeyword": "lv",
-  "Name": "Laravel Docs",
-  "Description": "Wox extension for quickly and easily searching the Laravel documentation",
+  "ID": "0C797BA1f7274F41A0E8D70F34AD5254",
+  "ActionKeyword": "mui",
+  "Name": "MUI Docs",
+  "Description": "Wox extension for quickly and easily searching the MUI documentation",
   "Author": "use-the-fork",
   "Version": "1.0.0",
   "Language": "python",
-  "Website": "https://github.com/use-the-fork/wox-laravel-docs",
+  "Website": "https://github.com/use-the-fork/wox-mui-docs",
   "IcoPath": "Images\\icon.svg",
   "ExecuteFileName": "main.py"
 }
