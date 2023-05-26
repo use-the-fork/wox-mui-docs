@@ -7,6 +7,6 @@
   "Version": "1.0.0",
   "Language": "python",
   "Website": "https://github.com/use-the-fork/wox-mui-docs",
-  "IcoPath": "Images\\icon.svg",
+  "IcoPath": "Images\\icon.png",
   "ExecuteFileName": "main.py"
 }

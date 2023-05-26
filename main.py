@@ -90,7 +90,7 @@ class MUIDocs(Wox):
                     {
                         "Title": html.unescape(title),
                         "SubTitle": html.unescape(subtitle if subtitle is not None else ""),
-                        "IcoPath": "Images/icon.svg",
+                        "IcoPath": "Images/icon.png",
                         "JsonRPCAction":
                             {
                                 "method": "openUrl",
@@ -111,7 +111,7 @@ class MUIDocs(Wox):
                     {
                         "Title": "Search Google",
                         "SubTitle": 'No match found. Search Google for: "{}"'.format(term),
-                        "IcoPath": "Images/icon.svg",
+                        "IcoPath": "Images/icon.png",
                         "JsonRPCAction":
                             {
                                 "method": "openUrl",
@@ -125,7 +125,7 @@ class MUIDocs(Wox):
                     {
                         "Title": "Open MUI Docs",
                         "SubTitle": "No match found. Open mui.com/material-ui...",
-                        "IcoPath": "Images/icon.svg",
+                        "IcoPath": "Images/icon.png",
                         "JsonRPCAction":
                             {
                                 "method": "openUrl",
